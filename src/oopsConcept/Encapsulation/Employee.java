@@ -1,4 +1,4 @@
-package oopsConcept;
+package oopsConcept.Encapsulation;
 
 public class Employee {
 
