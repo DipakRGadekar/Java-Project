@@ -1,21 +1,27 @@
 # JavaProject
 # Basic Java Project
 
-This is a Java project named "Basic" that covers fundamental programming concepts and challenges.
+We are implementing a Hybrid Testing framework using Java programming language and Selenium is used as an automation tool
 
-## Overview
+In the framework the Maven project is using, in the maven project src main java consists of POM
+Classes and src Test java consist of Test Classes. In Pom.xml added the dependencies,
+downloaded jar is present in the maven dependencies folder.
 
-The project covers essential Java programming concepts and challenges. It is organized into several packages, each focusing on specific topics.
+Test Base class consists of the code related to opening the browsers which are extended to different test classes using extends keywords.
 
-## Project Structure
+To design the test class we are using TestNG by TestNg we can generate the Emailable and HTML reports, and we can create test suits of different classes also to execute the classes parallel, compatibility is also possible.
 
-The project is structured as follows:
+It provides different assertions and also use different annotations like before method, after method, before test, @Test, and after test.
 
-- **Basic-concept**: Contains basic Java programming concepts which includes Data type, Variable initialization, Method overloading , Method overiding.
-- **Challenges**: Includes Pattern, Area of circle, Triangle coding challenges and problem-solving exercises.
-- **Loops**: Focuses on loop constructs in Java.
-- **OOPs-concept**: Covers Object-Oriented Programming (OOP) concepts.
-  - **abstraction**: Explains abstraction in OOP.
-  - **inheritance**: Discusses inheritance and its implementation.
-  - **polymorphism**: Covers polymorphism in Java.
-  - **encapsulation**: Explores encapsulation principles.
+We also created some folders like screenshots, Failed test cases get captured screenshots and save it also in the Test Data Consist of Xcel file for data-driven.
+
+The property file is created to store the important credentials data like UN, Password, URL, and PIN.
+
+Extent reporter is used to generate the report and log4j jar file is used to generate a log.
+
+In the Utility classes, frequently used methods like parameterization, and screenshots are included.
+
+Daily developed code/source code is stored in the GitLab repository.
+
+For continuous integration (CI) we use Jenkins for scheduling.
+
